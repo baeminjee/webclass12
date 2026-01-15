@@ -1,34 +1,14 @@
-*{
-    margin:0;
-    padding:0;
-}
-h1,h2,h3,h4,h5,h6{
-    font-size: inherit;
-    font-weight: inherit;
-}
-a{
-    color: inherit;
-    text-decoration: inherit;
-}
-address{
-    font-style: inherit;
-}
-ul,ol{
-    list-style: none;
-}
 html{
     font-family: 'Pretendard',sans-serif;
     font-size: 20px;
 }
 .inner-frame{
-    border:1px solid red;
     width: 1440px;
     margin:0 auto;
     margin-top: 3.75rem;
     text-align: center;
 }
 .inner-frame h1{
-    border:1px solid blue;
     font-weight: 900;
     font-size: 2.5rem;
     text-transform: uppercase;
@@ -37,10 +17,9 @@ html{
 }
 .desc{
     margin-bottom:5rem;
-    border:1px solid green;
+    line-height: 140%;
 }
 .banner{
-    border:1px solid hotpink;
     height:441px;
     background: url(../img/banner.jpg) no-repeat 50% 50% / cover;
     margin-bottom:5rem;
@@ -54,7 +33,6 @@ html{
     margin-bottom: 1rem;
 }
 .values li{
-    border:1px solid orange;
     font-size: 1rem;
     margin-bottom: 0.5rem;
 }
