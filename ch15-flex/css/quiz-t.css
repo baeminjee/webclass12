@@ -1,0 +1,19 @@
+*{
+    margin: 0;padding: 0;
+}
+.a{background-color: red;}
+.b{background-color: green;}
+.c{background-color: blue;}
+.d{background-color: gold;}
+.e{background-color: pink;}
+.box{background-color: gray;}
+
+.box1{
+    width:800px;
+    height:100px;
+    display: flex;
+}
+.box1 div{
+    width:100px;
+    height:100px;
+}
