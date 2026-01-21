@@ -4,30 +4,26 @@
 }
 .a{background-color: red;}
 .b{background-color: green;}
-.c{background-color: blue;}
-.d{background-color: gold;}
 .e{background-color: pink;}
 
-.box6{
-    width:800px;
-    height:300px;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.box6 div{
-    width:400px;
-    height:100px;
-}
 
-.box7{
-    width:800px;
-    height:300px;
+.box12{
+    width: 800px;
+    height: 300px;
     display: flex;
     background-color: gray;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    
 }
-.box7 div{
-    width:100px; 
+.box12 .e{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box12 .e div{
+    width:100px;
     height:100px;
 }
