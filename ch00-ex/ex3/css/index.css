@@ -10,7 +10,7 @@ html{
 }
 .banner{
     height: 599px;
-    background: url(../img/main.png) no-repeat 50% 50% / cover;
+    background: url(../img/main.png) no-repeat 50% 60% / cover;
 }
 .banner h1{
     font-size: 2.5em;
