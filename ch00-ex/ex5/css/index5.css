@@ -1,0 +1,63 @@
+html{
+    font-size: 1rem;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 400;
+}
+.stp1{
+    font-family: "abo";
+}
+.titlebox{
+    border:1px solid red;
+    width:1600px;
+    margin:0 auto;
+    padding-top: 6rem;
+    font-size: 2.5rem;
+    justify-content: center;
+    text-align: center;
+}
+.desc1{
+    margin-top:20px;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+}
+.banner{
+    height:700px;
+    background: url(../img/banner.jpg) no-repeat 50% 50% / cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 5rem;
+}    
+.banner h2{
+    color: #fff;
+    font-size: 7.5rem;
+    line-height: 90%;
+    text-transform: uppercase;
+    align-items: end;
+    width:1600px;
+}
+.sgntlist .stp1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sgntlist .desc2{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.list{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 2rem;
+}
+.list figure{
+    flex:1;
+    aspect-ratio: 521/520;
+}
+.list figure img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
