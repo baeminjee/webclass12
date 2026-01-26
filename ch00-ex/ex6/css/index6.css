@@ -1,0 +1,38 @@
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 400;
+}
+.common-frame{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    height: 100px;
+    
+}
+.common-frame ul{
+    display: flex;
+}
+ul li{
+    padding: 1.9rem 1rem;
+    text-transform: uppercase;
+}
+.banner{
+    background: url(../img/img1.jpg) no-repeat 50% 50% / cover;
+    height:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    color: #fff;
+    font-size: 7.5rem;
+    line-height: 100%;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
+.stp1{
+    font-family: 'abo';
+
+}
