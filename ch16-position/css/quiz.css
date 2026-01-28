@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+.a{background-color: red;}
+.b{background-color: green;}
+.c{background-color: blue;}
+.d{background-color: yellow;}
+.e{background-color: pink;}
+.box{
+    width:800px;
+    height:300px;
+    background-color: gray;
+    margin:500px auto;
+}
+
+.ex3>section{
+    width:160px;
+    height:300px;
+    position: absolute;
+}
+.ex3{
+    position: relative;
+}
+.ex3 div{
+    width:20%;
+    
+}
+.ex3 .a{
+    top:-300px;
+}
+.ex3 .b{
+    left:20%;
+    bottom:-100%;
+}
+.ex3 .c{
+    left:40%;
+    top: -100%;
+}    
+.ex3 .d{
+    left: 60%;
+    bottom: -100%;
+}
+.ex3 .e{
+    left: 80%;
+    top:-100%;
+}
+
+.ex4{
+    position: relative;
+}
