@@ -1,0 +1,95 @@
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 400;
+}
+.stp1{
+    font-family: 'abo';
+}
+.wrap{
+    width:100vw;
+    position: fixed;
+    border-bottom: 2px solid #BE0707;
+}
+.common-frame{
+    
+    width:1600px;
+    margin:0 auto;
+}    
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+}
+.menu .lnb{
+    justify-content: flex-end;
+}
+.menu .lnb a{
+    color: #fff;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    line-height:100%;
+}
+.menu .gnb{
+    justify-content: center;
+}
+.menu .gnb a{
+    color: #fff;
+    width:138px;
+    height:70px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    font-weight: 600;
+}
+.hero-banner{
+    background: url(../img/hero-banner.jpg) no-repeat 50% 50% / cover;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    
+}
+.hero-banner h1{
+    color:#fff;
+    font-size: 140px;
+    line-height: 90%;
+    text-transform: uppercase;
+    width:1600px;
+}
+.a{
+    font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.a .c{
+    margin-bottom: 20px;
+}
+.b{
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.banner{
+    background: url(../img/banner.jpg) no-repeat 50% 50% / cover;
+    height:441px;
+    width:1600px;
+    margin:0 auto;
+}
