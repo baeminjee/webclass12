@@ -1,0 +1,24 @@
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 400;
+}
+.stp1{
+    font-family: 'abo';
+}
+.banner{
+    background: url(../img/banner.jpg) no-repeat 50% 50% / cover;
+    height: 800px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 100%;
+    text-transform: uppercase;
+
+}

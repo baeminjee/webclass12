@@ -204,3 +204,21 @@
     right: 0;
     bottom: 0;
 }
+
+.title{
+    border:1px soild red;
+    display: flex;
+}
+.title h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+}
+.menu ul{
+    display: flex;
+    gap: 200px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
