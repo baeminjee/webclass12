@@ -8,11 +8,16 @@
     height: 300px;
     margin: 800px auto;
 }
-.a{background-color: red;}
-.b{background-color: green;}
-.c{background-color: blue;}
-.d{background-color: yellow;}
-.e{background-color: pink;}
+.a{background-color: red;
+   transition: all 1s ease 0s;}
+.b{background-color: green;
+   transition: all 1s ease 0s;}
+.c{background-color: blue;
+   transition: all 1s ease 0s;}
+.d{background-color: yellow;
+   transition: all 1s ease 0s;}
+.e{background-color: pink;
+   transition: all 1s ease 0s;}
 
 .box-1>section{
     width: 100px;
@@ -20,33 +25,50 @@
 }
 .box-1{
     position: relative;
+    overflow: hidden;
 }
 .box-1 .a{
     position: absolute;
     left: 0px;
     top: 0px;
 }
+.box-1:hover .a{
+    left:-100px;
+    top:-100px;
+}
 .box-1 .b{
     position: absolute;
     left: 0px;
     bottom: 0px;
+}
+.box-1:hover .b{
+    left:-100px;
+    bottom:-100px;
 }
 .box-1 .c{
     position: absolute;
     left: calc(50% - 50px);
     top: calc(50% - 50px);
 }
+
 .box-1 .d{
     position: absolute;
     right: 0px;
     top: 0px;
+}
+.box-1:hover .d{
+    right:-100px;
+    top:-100px;
 }
 .box-1 .e{
     position: absolute;
     right: 0px;
     bottom: 0px;
 }
-
+.box-1:hover .e{
+    right:-100px;
+    bottom:-100px;
+}
 .box-2{
     position: relative;
 }
@@ -59,23 +81,42 @@
     left: -100px;
     top: -100px;
 }
+.box-2:hover .a{
+    left:0px;
+    top:0px;
+}
 .box-2 .c{
     left: calc(50% - 50px);
     bottom: -100px;
+}
+.box-2:hover .c{
+    left: calc(50% - 50px);
+    bottom: calc(50% - 50px);
 }
 .box-2 .b{
     left: -100px;
     bottom: -100px;
 }
+.box-2:hover .b{
+    left:0;
+    bottom:0;
+}
 .box-2 .d{
     right: -100px;
     top: -100px;
+}
+.box-2:hover .d{
+    right:0;
+    top:0;
 }
 .box-2 .e{
     right: -100px;
     bottom: -100px;
 }
-
+.box-2:hover .e{
+    right:0;
+    bottom:0;
+}
 .box-3{
     position: relative;
 }
