@@ -6,6 +6,130 @@ html{
 .stp1{
     font-family: 'abo';
 }
+a{
+    color:inherit;
+    text-decoration: inherit;
+}
+header{
+    /* border:1px solid red; */
+    background-color: #fff;
+    height:266px;
+    max-height:100px;
+    overflow:hidden;
+    transition: all 1s ease 0s;
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+}
+.wrap{
+    margin:5rem 0;
+}
+.inner-frame{
+    width:1600px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+header:hover{
+    max-height:500px;
+}
+.wrap .common-frame{
+    display: flex;
+}
+.lnb{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    /* border:1px solid blue; */
+    display: flex;
+    text-transform: uppercase;
+    gap:1rem;
+}
+.lnb>a{
+    display:flex;
+    height:100px;
+    align-items: center;
+}
+.lnb>li{
+    /* border:1px solid green; */
+}
+.lnb>li>a{
+    display: flex;
+    height:80px;
+    align-items: center;
+    margin-bottom:1rem;
+    /* border:1px solid orange; */
+}
+.lnb>ul>a{
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+.dep>li>a{
+    display: flex;
+    /* border:1px solid red; */
+    margin-top:20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .banner{
     background: url(../img/banner.jpg) no-repeat 50% 50% / cover;
     height: 800px;
