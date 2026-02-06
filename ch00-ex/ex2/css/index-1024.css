@@ -1,0 +1,16 @@
+@media (max-width:1024px){
+    html{
+        font-size:var(--base-pad);
+    }
+    
+    .content {
+    width: auto;
+    margin: 0 2rem;
+    margin-top: 6rem;
+    }
+
+    .content h2{
+        margin-bottom: 72px;
+        font-size: 3rem;
+    }
+}

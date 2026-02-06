@@ -11,19 +11,19 @@ header{
     background-color: #fff;
     max-height:100px;
     /* max-height:100px; */
-    position: absolute;
+    position: relative;
     left:0;
     top:0;
     width: 100%;
-    z-index:1;
+    z-index:1000;
 }
 .inner-frame{
     width:1600px;
     margin:0 auto;
     display: flex;
     justify-content: space-between;
+    
 }
-
 .wrap .inner-frame{
     display: flex;
 }
@@ -42,25 +42,20 @@ header{
     width:200px;
     overflow:hidden;
     max-height:100px;
-    transition: all .7s ease 0s;
+    transition: all .6s ease 0s;
     border-radius: 0 0 5px 5px;
     box-sizing: border-box;
     padding: .5rem;
     padding-top: 0;
+    
 }
 .lnb>li:hover{
     max-height:500px;
 }
-.lnb>a{
+.lnb>li>a{
     display:flex;
     height:100px;
     align-items: center;
-}
-.lnb>li>a{
-    display: flex;
-    height:80px;
-    align-items: center;
-    margin-bottom:1rem;
 }
 .lnb>ul>a{
     font-weight: 400;
@@ -75,13 +70,6 @@ header{
     font-size: 16px;
 }    
 
-.lnb>li>a{
-    display: flex;
-    height:80px;
-    align-items: center;
-    margin-bottom:1rem;
-    /* border:1px solid orange; */
-}
 .lnb>ul>a{
     font-weight: 400;
     line-height: 100%;
@@ -94,8 +82,11 @@ header{
     font-weight: 400;
     font-size: 16px;
 }
+.lnb ul>li:last-of-type{
+    margin-bottom: 0;
+}    
 .banner{
-    border:1px solid red;
+    /* border:1px solid red; */
     height: 800px;
     position:relative;
     color:#fff;
@@ -106,6 +97,7 @@ header{
     height:100%;
     object-fit: cover;
     height:800px;
+    
 }
 .banner .floating-text{
     /* border:1px solid green; */
@@ -114,6 +106,8 @@ header{
     top:50%;
     transform: 
     translate(-50%,-50%);
+    align-items: center;
+    justify-content: center;
 }
 .floating-text h1{
     font-weight: 400;

@@ -1,0 +1,15 @@
+@media (max-width:1920px){
+    .container{
+        background-color: darkorchid;
+    }
+}
+@media (max-width:1024px){
+    .container{
+        background-color: navy;
+    }
+}
+@media (max-width:768px){
+    .container{
+        background-color: darkolivegreen;
+    }
+}
