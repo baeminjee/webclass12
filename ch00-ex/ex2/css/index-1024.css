@@ -9,8 +9,10 @@
     margin-top: 6rem;
     }
 
-    .content h2{
-        margin-bottom: 72px;
-        font-size: 3rem;
+    .content figure img{
+        width:100px;
+        height:350px;
+        object-fit: cover;
+        margin-bottom: 1rem;
     }
 }
