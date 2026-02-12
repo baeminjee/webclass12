@@ -3,9 +3,9 @@
         font-size:var(--base-mo);
     }
     .content {
-    width: auto;
-    margin: 0 1rem;
-    margin-top: 6rem;
+        width: auto;
+        margin: 0 1rem;
+        margin-top: 6rem;
     }
 
     .content figure img{

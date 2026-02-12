@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let userName = prompt("이름을 입력하시오")
+    let scoreKo = Number(prompt("국어점수를 입력하시오"))
+    let scoreEn = Number(prompt("영어점수를 입력하시오"))
+    let scoreMt = Number(prompt("수학점수를 입력하시오"))
+    let scoreSo = Number(prompt("사회점수를 입력하시오"))
+    let scoreSum = scoreKo+scoreEn+scoreMt+scoreSo
+    let scoreAver = (scoreSum/4).toFixed(2)
+    let grade = scoreAverNumber>=90?"1등급":scoreAverNumber>=80?"2등급":scoreAverNumber>=70?"3등급":"4등급"
+    
+
+    document.write(`<p>[${userName}님의] 평균점수는 [${scoreAver}"]점입니다. [${grade}]입니다. </p>`)
+</script>    
+</body>
+</html>
